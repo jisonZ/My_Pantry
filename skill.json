@@ -1,0 +1,55 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "This skill is your personal pantry assistant to keep track of what’s in your fridge.",
+          "examplePhrases": [
+            "Alexa open my pantry",
+            "Alexa ask my pantry when will my pineapple expire?",
+            "Alexa ask my pantry I bought beef and potato today"
+          ],
+          "keywords": [
+            "pantry",
+            "food",
+            "manage",
+            "fridge",
+            "sustainability",
+            "food-waste"
+          ],
+          "name": "My Pantry",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "description": "“Pantry” helps you record food items you have purchased, as well as keep track of the expiration period for every single food item you have! You can either provide an explicit expiration date or allow “Pantry” to automatically set an expiration date based on the type of food. When you are ready to remove a food item from your fridge, tell “Pantry”! And “Pantry” will remove that item from your list of food. When you need to be reminded of what you have or what is expiring, ask “Pantry”! “Pantry” will give you exactly the reminder you need.\n \nFor adding food to your pantry, you could say:\n\n\"add pineapple to my pantry.\"\n\"I got pizza on February 24th.\"\n\"I bought beef and potato today.\"\n\"Tomato expires tomorrow\"\n\nFor remove food in your pantry, you could say:\n\n\"Remove pineapple and apple.\"\n\"I ate beef and potato.\"\n\"I cooked tomato.\"\n\nTo see the expiring items in your pantry, you could say:\n\"what\u0027s in my pantry.\"\n\"open my pantry.\"\n\"see pantry.\"\n\nTo see a specific expiring item in your pantry, you could say:\n\"Pineapple.\"\n\"When will my pineapple expire?\"\n\nRemember that we couldn\u0027t keep track of every type of food in the world! Please help us to improve our interactive database by providing a reasonable preservation duration for your special food when Alexa ask you to do so! People in the world who have the same taste as you would love it!",
+          "updatesDescription": "v1.0 Beta release",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "HOME_SERVICES",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:320930065621:function:5bcdcaa2-db9d-4f59-ab41-b8ba1317575b:Release_2"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {
+          "termsOfUseUrl": "http://www.example.com",
+          "privacyPolicyUrl": "http://www.example.com"
+        }
+      },
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}

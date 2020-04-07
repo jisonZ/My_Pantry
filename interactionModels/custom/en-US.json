@@ -1,0 +1,341 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "my pantry",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AddIntent",
+          "slots": [
+            {
+              "name": "food",
+              "type": "AMAZON.Food"
+            },
+            {
+              "name": "food_second",
+              "type": "AMAZON.Food"
+            },
+            {
+              "name": "purchase_date",
+              "type": "AMAZON.DATE"
+            },
+            {
+              "name": "expire_date",
+              "type": "AMAZON.DATE"
+            }
+          ],
+          "samples": [
+            "add {food} to my pantry",
+            "add {food} ",
+            "I got {food} on {purchase_date}",
+            "I got {food} and {food_second} on {purchase_date}",
+            "I bought {food} and {food_second} on {purchase_date}",
+            "I bought {food} on {purchase_date}",
+            "{food} and  {food_second} expire on {expire_date}",
+            "{food} and {food_second} will expire on {expire_date}",
+            "{food} and {food_second} will expire {expire_date}",
+            "{food} will expire {expire_date}",
+            "{food} will expire on {expire_date}",
+            "{food} expires {expire_date}",
+            "I bought {food} and {food_second} {purchase_date}",
+            "I got {food} and {food_second} {purchase_date}",
+            "I got {food} {purchase_date}",
+            "I bought {food} {purchase_date}",
+            "add a {food} to my pantry",
+            "add a {food} ",
+            "I got a {food} on {purchase_date}",
+            "I got a {food} and {food_second} on {purchase_date}",
+            "I bought a {food} and a {food_second} on {purchase_date}",
+            "I bought a {food} on {purchase_date}",
+            "{food} and  {food_second} expire on {expire_date}",
+            "{food} and {food_second} will expire on {expire_date}",
+            "{food} and {food_second} will expire {expire_date}",
+            "{food} will expire {expire_date}",
+            "{food} will expire on {expire_date}",
+            "{food} expires {expire_date}",
+            "I bought a {food} and a {food_second} {purchase_date}",
+            "I got a {food} and a {food_second} {purchase_date}",
+            "I got a {food} {purchase_date}",
+            "I bought a {food} {purchase_date}",
+            "add an {food} to my pantry",
+            "add an {food} ",
+            "I got an {food} on {purchase_date}",
+            "I got an {food} and an {food_second} on {purchase_date}",
+            "I bought an {food} and an {food_second} on {purchase_date}",
+            "I bought an {food} on {purchase_date}",
+            "{food} and  {food_second} expire on {expire_date}",
+            "{food} and {food_second} will expire on {expire_date}",
+            "{food} and {food_second} will expire {expire_date}",
+            "{food} will expire {expire_date}",
+            "{food} will expire on {expire_date}",
+            "{food} expires {expire_date}",
+            "I bought an {food} and an {food_second} {purchase_date}",
+            "I got an {food} and an {food_second} {purchase_date}",
+            "I got an {food} {purchase_date}",
+            "I bought an {food} {purchase_date}"
+          ]
+        },
+        {
+          "name": "DeleteIntent",
+          "slots": [
+            {
+              "name": "food",
+              "type": "AMAZON.Food"
+            },
+            {
+              "name": "food_second",
+              "type": "AMAZON.Food"
+            }
+          ],
+          "samples": [
+            "remove {food} and {food_second} today",
+            "remove {food} today",
+            "remove {food} and {food_second} yesterday",
+            "remove {food} yesterday",
+            "i cooked {food} and {food_second} yesterday",
+            "i cooked {food} and {food_second} today",
+            "i ate {food} and {food_second} yesterday",
+            "i ate {food} and {food_second} today",
+            "remove {food} and {food_second}",
+            "remove {food}",
+            "I\u0027m going to use {food} and {food_second}",
+            "I\u0027m going to cook {food} and {food_second}",
+            "I\u0027m going to finish {food} and {food_second}",
+            "I\u0027m going to drink {food} and {food_second}",
+            "I\u0027m gonna drink {food} and {food_second}",
+            "I\u0027m gonna finish {food} and {food_second}",
+            "I will finish {food} and {food_second}",
+            "I finished {food} and {food_second}",
+            "I drank {food} and {food_second}",
+            "I\u0027m gonna use {food} and {food_second}",
+            "I\u0027m gonna cook {food} and {food_second}",
+            "I\u0027m gonna eat {food} and {food_second}",
+            "I\u0027m going to eat {food} and {food_second}",
+            "I will cook {food} and {food_second}",
+            "I\u0027m cooking {food} and {food_second}",
+            "I\u0027m eating {food} and {food_second}",
+            "I will eat {food} and {food_second}",
+            "I cooked {food} and {food_second}",
+            "I used {food} and {food_second}",
+            "I had {food} and {food_second}",
+            "I ate {food} and {food_second}",
+            "I\u0027m going to use {food}",
+            "I\u0027m going to cook {food}",
+            "I\u0027m going to finish {food}",
+            "I\u0027m going to drink {food}",
+            "I\u0027m gonna drink {food}",
+            "I\u0027m gonna finish {food}",
+            "I will finish {food}",
+            "I finished {food}",
+            "I drank {food}",
+            "I\u0027m gonna use {food}",
+            "I\u0027m gonna cook {food}",
+            "I\u0027m gonna eat {food}",
+            "I\u0027m going to eat {food}",
+            "I will cook {food}",
+            "I\u0027m cooking {food}",
+            "I\u0027m eating {food}",
+            "I will eat {food}",
+            "I cooked {food}",
+            "I used {food}",
+            "I had {food}",
+            "I ate {food}"
+          ]
+        },
+        {
+          "name": "ViewIntent",
+          "slots": [],
+          "samples": [
+            "open pantry",
+            "see pantry",
+            "open my pantry",
+            "see my pantry",
+            "i want to see what\u0027s expiring in my pantry",
+            "i want to see my pantry",
+            "what\u0027s expiring in my pantry",
+            "what\u0027s expiring",
+            "I want to see what\u0027s in my pantry",
+            "what\u0027s in my pantry",
+            "I want to know what\u0027s in my pantry",
+            "tell me what\u0027s in my pantry"
+          ]
+        },
+        {
+          "name": "AddToUserDBIntent",
+          "slots": [
+            {
+              "name": "food_a",
+              "type": "AMAZON.Food"
+            },
+            {
+              "name": "days_a",
+              "type": "AMAZON.DURATION"
+            },
+            {
+              "name": "food_b",
+              "type": "AMAZON.Food"
+            },
+            {
+              "name": "days_b",
+              "type": "AMAZON.DURATION"
+            }
+          ],
+          "samples": [
+            "{food_a} expire in {days_a} and {food_b} expire in {days_b}",
+            "{food_a} expires in {days_a} and {food_b} expires in {days_b}",
+            "{food_a} expire in {days_a}",
+            "{food_a} expires in {days_a}"
+          ]
+        },
+        {
+          "name": "AskIntent",
+          "slots": [
+            {
+              "name": "food",
+              "type": "AMAZON.Food"
+            }
+          ],
+          "samples": [
+            "{food}",
+            "when would my {food} expire",
+            "when would {food} expire",
+            "when will {food} expire",
+            "when will my {food} expire",
+            "when does  {food} expire",
+            "When does my {food} expires"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "pantry"
+              }
+            },
+            {
+              "name": {
+                "value": "fridge",
+                "synonyms": [
+                  "refrigerator"
+                ]
+              }
+            }
+          ],
+          "name": "location"
+        }
+      ]
+    },
+    "dialog": {
+      "intents": [
+        {
+          "name": "AddIntent",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "food",
+              "type": "AMAZON.Food",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.143974309977.741969365041"
+              }
+            },
+            {
+              "name": "food_second",
+              "type": "AMAZON.Food",
+              "elicitationRequired": false,
+              "confirmationRequired": false,
+              "prompts": {}
+            },
+            {
+              "name": "purchase_date",
+              "type": "AMAZON.DATE",
+              "elicitationRequired": false,
+              "confirmationRequired": false,
+              "prompts": {}
+            },
+            {
+              "name": "expire_date",
+              "type": "AMAZON.DATE",
+              "elicitationRequired": false,
+              "confirmationRequired": false,
+              "prompts": {}
+            }
+          ]
+        },
+        {
+          "name": "DeleteIntent",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "food",
+              "type": "AMAZON.Food",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1242815081182.1181446719664"
+              }
+            },
+            {
+              "name": "food_second",
+              "type": "AMAZON.Food",
+              "elicitationRequired": false,
+              "confirmationRequired": false,
+              "prompts": {}
+            }
+          ]
+        }
+      ],
+      "delegationStrategy": "ALWAYS"
+    },
+    "prompts": [
+      {
+        "id": "Elicit.Slot.633812581334.815957845315",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "When did you buy this item? "
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.1242815081182.1181446719664",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "What do you want to remove from your pantry?"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.143974309977.741969365041",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "What do you want to add to your pantry?"
+          }
+        ]
+      }
+    ]
+  },
+  "version": "27"
+}
