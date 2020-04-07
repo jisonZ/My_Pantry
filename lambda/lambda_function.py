@@ -32,8 +32,8 @@ from random import randint
 ################################## class ################################## 
 
 class DBStorage():
-    DB_ID = 'AKIASBT7CP22UVXYJ35V'
-    DB_KEY = 'zUchUgAfod7W7fJ0W/HbPAcXoyr2EBVbDkcPb89Y'
+    DB_ID = #Your database ID
+    DB_KEY = #Your database KEY
     def get_exp_date_str(date, food):
         return_val = {"type":"", "val":""}
         client = boto3.resource('dynamodb',aws_access_key_id=DBStorage.DB_ID, aws_secret_access_key=DBStorage.DB_KEY, region_name='us-east-2')
